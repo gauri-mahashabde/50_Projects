@@ -36,6 +36,7 @@ this.Count = function(data) {
       data += '<tr>';
       data += '<td>' + this.countries[i] + '</td>';
       data += '</tr>';
+      data += '<td><button onclick="app.Edit(' + i + ')">Edit</button></td>';
      }
     }
     
@@ -61,5 +62,7 @@ this.Add = function () {
      this.FetchAll();
     }
    };
-   
+   function CloseInput() {
+    document.getElementById('spoiler').style.display = 'none';
+   }   
    app.FetchAll();
