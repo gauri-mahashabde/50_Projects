@@ -29,7 +29,7 @@ this.Count = function(data) {
     }
    };   
 
-   this.FetchAll = function() {
+   /*this.FetchAll = function() {
     var data = '';
     if (this.countries.length > 0) {
      for (i = 0; i < this.countries.length; i++) {
@@ -65,4 +65,4 @@ this.Add = function () {
    function CloseInput() {
     document.getElementById('spoiler').style.display = 'none';
    }   
-   app.FetchAll();
+   app.FetchAll();*/
